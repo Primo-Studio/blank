@@ -3,6 +3,7 @@ import path from 'path';
 import Users from './collections/Users';
 import { payloadCloud } from '@payloadcms/plugin-cloud';
 import BeforeDashboard from './components/BeforeDashboard';
+import Events from './collections/Events';
 
 export default buildConfig({
   admin: {
@@ -14,7 +15,8 @@ export default buildConfig({
     }
   },
   collections: [
-    Users,
+    // Users,
+    Events,
   ],
   typescript: {
     outputFile: path.resolve(__dirname, 'payload-types.ts'),
