@@ -9,8 +9,20 @@ const Events: CollectionConfig = {
             type: "text"
         },
         {
-            name: "date",
+            name: "eventDate",
             type: "date",
+        },
+        {
+            name: "eventHour",
+            type: "text"
+        },
+        {
+            name: "eventAdress",
+            type: "text"
+        },
+        {
+            name: "eventPrice",
+            type: "text"
         }
     ]
 }
