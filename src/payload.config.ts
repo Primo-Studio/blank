@@ -14,6 +14,7 @@ export default buildConfig({
       beforeDashboard: [BeforeDashboard],
     }
   },
+  cors: "*",
   collections: [
     Users,
     Events,
